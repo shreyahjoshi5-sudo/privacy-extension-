@@ -1,0 +1,17 @@
+body {
+  width: 250px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+h2 {
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+#count {
+  font-size: 13px;
+  color: #555;
+}
+ul {
+  padding-left: 18px;
+  font-size: 13px;
+}

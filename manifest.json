@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Tracker Detector",
+  "version": "1.0",
+  "description": "Detects known tracker scripts on the current webpage",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Tracker Detector"
+  },
+  "web_accessible_resources": [
+  {
+    "resources": ["blocklist.json"],
+    "matches": ["<all_urls>"]
+  }
+]
+}
