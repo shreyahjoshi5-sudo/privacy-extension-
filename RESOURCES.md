@@ -31,7 +31,7 @@ so users can make their own informed decisions.
 - Basic HTML/CSS
 - No prior extension-building experience required — this repo teaches it
 - No AI/ML knowledge required for the core repo (only for the optional
-  AI stretch issue)
+ 
 
 ## 4. Setup
 
@@ -99,5 +99,4 @@ so users can make their own informed decisions.
    - How you tested it (e.g., "tested on hindustantimes.com, confirmed
      X tracker now shows in the popup")
 4. Link the issue number in your PR description.
-5. Respond to review comments — a maintainer will review within [your
-   team's review window].
+5. Respond to review comments — a maintainer will review .
