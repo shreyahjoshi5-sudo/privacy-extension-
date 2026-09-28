@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Node (if contributors add tests or tooling)
+node_modules/
+npm-debug.log*
+
+# Packaged extension output
+web-ext-artifacts/
+*.xpi
+*.zip
+
+# Logs
+*.log
